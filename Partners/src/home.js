@@ -57,9 +57,9 @@ class Home extends Component {
                                     </div>
                         </div>
                         <div className="hvrbox">
-                                        <img src={pic5} width={250} height={250} alt="Image" />
+                                       <img src={pic5} width={250} height={250} alt="Image" />
                                         <div class="hvrbox-layer_top">
-                                    <div class="text">The Clean Slate Initiative is a national bipartisan coalition advancing policies to automatically clear all eligible criminal records across the United States.</div>
+                                    <div class="hvrbox-text">The Clean Slate Initiative is a national bipartisan coalition advancing policies to automatically clear all eligible criminal records across the United States.</div>
                                     </div>
                         </div>
                         <div className="hvrbox">
@@ -71,13 +71,13 @@ class Home extends Component {
                         <div className="hvrbox">
                          <img src={pic7} width={250} height={250} alt="Image" />
                          <div class="hvrbox-layer_top">
-                         <div class="text">Our mission is to fuel engineering students' intellectual curiosity in support of building a more just, humane, and sustainable world.</div>
+                         <div class="hvrbox-text">Our mission is to fuel engineering students' intellectual curiosity in support of building a more just, humane, and sustainable world.</div>
                          </div>
                         </div>
                         <div className="hvrbox">
                             <img src={pic8} width={250} height={250} alt="Image" />
                             <div class="hvrbox-layer_top">
-                            <div class="hverbx-text">EPIC Laboratory is one of the leaders in supporting Humanitarian Technology research at Santa Clara University. </div>
+                            <div class="hvrbox-text">EPIC Laboratory is one of the leaders in supporting Humanitarian Technology research at Santa Clara University. </div>
                              </div>
                         </div>
                         <div className="hvrbox">
