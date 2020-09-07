@@ -1,0 +1,9 @@
+tr {
+  background-color: whitesmoke;
+}
+
+td {
+  padding: 15px;
+  border-width: 1px solid #000000;
+  background-color: white;
+}
