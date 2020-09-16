@@ -1,7 +1,32 @@
 path {
   pointer-events: all;
 }
+
 path:hover {
   opacity: 0.50;
   cursor: pointer;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  width: 80%;
+  border: 0;
+  border-top: 2px solid black;
+  margin: 1em 0;
+  margin-left: 75px;
+  padding: 0;
+}
+
+#map__container{
+  margin-left: 5rem;
+}
+
+#report__table{
+  margin-top: 10rem;
+  margin-left: -100px;
+}
+
+#table__title{
+  margin-left: 100px;
 }
