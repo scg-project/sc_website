@@ -20,9 +20,13 @@ header {
 }
 
 main {
-  width: 90vw;
-  margin: 0 auto;
+/*  width: 90vw;*/
+/*  margin: 0 auto;*/
   padding: 30px 20px;
+}
+
+#map{
+    
 }
 
 article {
