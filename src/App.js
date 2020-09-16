@@ -96,7 +96,8 @@ return (
                          };
                        };
                        return (
-                         <div align="center">
+//                         <div align="center">
+                        <div>
                            <BrowserRouter>
                            <div className="row">
                              <div className="col-8" id="map__container">
@@ -112,4 +113,3 @@ return (
                      }
                      export default Contact;
                     
-
