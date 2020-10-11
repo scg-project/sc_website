@@ -18,13 +18,45 @@
         <li><a href="methodology.html">Methodology</a></li>
         <li><a href="tools.html">Tools & Resources</a></li>
         <li><a href="team.html">Project Team</a></li>
-        <li><a href="press.html">Press</a></li>
         <a href="index.html"><img class="logo" src="images/logo.png" ></a>
       </ul>
     </header>
     <main>
       <article>
         <h2>Methodology</h2>
+          
+          <p><b>To estimate the number and share of people eligible for but not receiving relief in each state, we proceeded as follows, implementing the approach developed in Colleen V. Chien, <i>The Second Chance Gap</i> (2020) ((Chien (2020)).</b></p>
+
+          <p>First, we ascertained the relevant records relief laws and developed rules logic, using legal research to develop lists of ineligible and eligible charges. Next, we obtained and cleaned the data sample and collected information on the state’s criminal population. Where possible, we also obtained administrative data on the number of expungements granted historically. Next, we developed flow logic to model the laws. Next we applied the flow logic to the data sample to estimate eligibility shares in the sample. Finally we extrapolated from the population in the sample to the total criminal population in the state overall to calculate number and share of individuals in the “current gap” (people with currently records eligible for relief) as well as the “uptake gap” (share of people eligible for expungement over time that have not received them). The descriptions below disclose several shortcomings in our approach, including our inability to account for outstanding fines or out of state charges which could potentially disqualify some individuals for relief, failure to model criteria from whom eligibility was unascertainable from the available record, the existence of missing data for which we assumed a lack of eligibility, and our inability to be sure that our sample was representative of all with criminal records in the state.</p>
+
+         <p><strong><h4 style="color:darkslategray;"><b><i>Ascertaining the Law and Developing Rules Logic</b></i></h4></strong></p>
+          
+          <p>Based on the court guidelines, statutes, and guides from non-profits listed above we discerned the law and determined its internal logic, with respect to the charge grade (e.g. misdemeanor or felony), offense type (e.g non-violent or domestic violence charge), time (e.g 3-year waiting period), disposition type (e.g. nolo contendere) and person conditions (e.g. a lifetime limit of 2 convictions) that define eligibility. These are disclosed in every report in the RULES section.</p>
+
+          <p>From these rules, we created lists of eligible and ineligible offenses. To do so, we reviewed the relief rules for disqualified classes of charges and then searched the criminal code for the corresponding statute name or number corresponding with each class of charges. We then used these statutes to identify the characteristics of each potentially eligible offense: their charge type (e.g. felony, misdemeanor), degree, and the maximum possible duration of incarceration/amount to be fine for each offense. Once we had assembled the characteristics of each potentially ineligible offense, we cross referenced each offense and its characteristics against the eligibility statute. If a specific statute section was outside the prescribed characteristics of any category of eligibility (e.g., class of offense, degree, maximum duration of incarceration/amount to be fined, etc.), the offense was deemed ineligible for expungement. The offenses that were within each of the eligibility requirements after this process were deemed eligible for expungement. We did not consider the eligibility of offenses that fulfilled the unmodeled criteria referenced above, making our estimate under-inclusive and over-inclusive.</p>
+	
+          <p><h4 style="color:darkslategray;"><b><i>Obtaining the Data Sample and Collecting Data on the State Population of Individuals with Criminal Records</i></b></h4></p>
+
+          <p>From a data vendor, we obtained court records from the data source indicated below. We then used Name+DOB to create unique person IDs and created state-specific criminal histories for each person. Profile information on the analyzed population is provided below in every report in Appendix B.</p> 
+
+          <p>We collected information on the number of people with criminal records in the state from SEARCH (2018) (adjusting for growth in the number of people with records and accounting for people with uncharged arrests as described in Chien (2020)). If state population information was available from the state, we relied on it instead. We sought from state sources administrative data on the number of expungements granted historically and searched for other disclosures of this information where official information was not available for use in calculating the “uptake rate” and number of years it would take to clear the backlog.</p> 
+
+          <p><h4 style="color:darkslategray;"><b><i>Applying the Law to the Sample Data to Obtain an Eligibility Share</i></b></h4></p> 
+
+          <p>To apply the law to data, we used the methods described in Chien (2020) to first prepare the data by cleaning and labeling dispositions and charges data. We report the share of charges missing dispositions or chargetypes in Appendix B of each report. We then applied the logic to the sample to obtain a share of people eligible for records relief in the sample. When relevant data was missing, we assumed, conservatively, that the charge or incident was ineligible for relief.</p>
+
+          <p>To approximate “sentence completion” we used recorded sentences where available, assuming that the sentence had been carried out, and where not available, an assumption that the sentence was completed 2.5 years after the disposition date for misdemeanor charges, and 3.5 years after the disposition date for felony charges where sentence completion was not readily available.  Importantly, we did not account for outstanding fines or out of state charges which could potentially disqualify some individuals for relief per the summary of the rules.</p>
+
+          <p>When the eligibility of frequently occurring charges wasn’t addressed directly by the “top down” methodology described above, of researching eligibility or ineligibility based on the rules, we used a “bottom up” approach of researching these charges and ascertaining their eligibility one by one.</p>
+
+          <p><h4 style="color:darkslategray;"><b><i>Applying the Eligibility Share to the Criminal Population and State History of Relief to Estimate the Number of People in the Second Chance Gap</i></b></h4></p>
+
+          <p>To develop a total state eligibility estimate based on the shares derived in Step above we assumed that the sample was representative enough of the criminal population that we could use its eligibility shares as the basis for a state estimate. We then applied these shares to the estimated number of people with court criminal records in the state, developed using the approach described above. This yielded our estimation of the number and share of individuals in the “current gap” (people with currently records eligible for relief) as well as, in combination with the expungement actuals mentioned above, the “uptake gap” (share of people eligible for expungement over time that have not received them).</p> 
+
+          
+          
+          
+          
       </article>
     </main>
     <footer>
